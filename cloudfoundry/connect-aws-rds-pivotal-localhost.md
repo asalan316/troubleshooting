@@ -39,7 +39,10 @@ Once you have created the tunnel, you can access the AWS-RDS database from your 
 
 - install DB Navigator plugin in intellj (Community Edition), if you have't installed already -> https://plugins.jetbrains.com/plugin/1800-database-navigator
 
-- Connect to AWS RDS -> notice the connection is made via localhost on port 63306
+- Connect to AWS RDS in intellJ -> notice the connection is made via localhost on port 63306. 
+ - Go to DB Navigator plugin and click on custom under new connection.
+ - Enter the URL as:
+   `jdbc:mysql://<username>:<password>@localhost:63306/<database_name>`
   
 ![Connection Dettails in DB Navigator](https://github.com/asalan316/troubleshooting/blob/master/cloudfoundry/db-navigator-connection-setting.png?raw=true)
 
