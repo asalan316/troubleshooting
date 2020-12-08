@@ -1,5 +1,3 @@
-# asds
-
 # Access AWS RDS available in Pivotal Cloud Foundry from Developer IDE 
 
 Sometimes developers wants to access cloud database from their developer machines. 
